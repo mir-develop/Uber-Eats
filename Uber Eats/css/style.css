@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    padding: 16px;
+    background: #ffffff;
+    z-index: 100;
+    box-shadow: 0px 0px 16px #26262616;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ic-btn {
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.search-field {
+    margin-top: 56px;
+    padding: 0px 16px;
+}
+
+.custom-search {
+    box-sizing: border-box;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    box-shadow: none;
+    padding-left: 0px;
+    border: none;
+    border-radius: 0px;
+    border-bottom: solid 1px #75757530;
+    transition: all 0.2s ease-in-out;
+}
+
+.custom-search:hover {
+    border-bottom: solid 1px #57AD5675;
+}
+
+.custom-search::placeholder {
+    color: #62626250;
+}
+
+.custom-search:focus {
+    outline: none;
+    border-bottom: solid 1px #57AD56;
+}
+
+.group {
+    display: flex;
+    gap: 16px;
+}
+
+.btn-login {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 40px;
+    border: solid 1px #E0E0E0;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-login span {
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    color: #1D1D1D;
+}
+
+.btn-login:hover {
+    background: #E0E0E0;
+}
+
+.btn-to-top {
+    position: fixed;
+    z-index: 90;
+    right: 16px;
+    bottom: 24px;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    background: #57AD56;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-to-top:hover {
+    background: #3F9840;
+}
+
+.row {
+    margin: 0px !important;
+    padding: 0px 8px;
+    width: 100%;
+}
+
+.card {
+    padding: 8px 8px !important;
+    width: 100%;
+    margin-bottom: 16px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 2px;
+}
+
+.card:hover {
+    background: #57AD5620;
+    scale: 1.02;
+}
+
+.card img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+    margin-top: 14px;
+    margin-bottom: 4px;
+}
+
+h3 {
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+    color: #626262;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+h4 {
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 13px;
+    color: #1D1D1D;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+h6 {
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 13px;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h5 {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+span {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    color: #57AD56;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 34px;
+    font-size: 22px;
+    color: #1D1D1D;
+    margin-top: 56px;
+    margin-bottom: 8px;
+    padding-left: 8px;
+}
+
+footer {
+    background: #262626;
+    padding: 56px 0px 16px;
+}
+
+hr {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+
+.dropbtn {
+    display: flex;
+    align-items: center;
+    width: 228px;
+    gap: 16px;
+    background: #3B3B3B;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+p {
+    font-weight: 400;
+    line-height: 13px;
+    font-size: 11px;
+    color: #ffffff;
+    margin-bottom: 24px;
+    margin-right: 96px;
+}
+
+.title {
+    font-weight: 400;
+    line-height: 42px;
+    font-size: 36px;
+    color: #1D1D1D;
+    margin-bottom: 54px;
+    text-align: center;
+    width: 100%;
+}
+
+.store-name {
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 38px !important;
+    background: #ffffff;
+    box-shadow: 0px 0px 16px #75757520;
+}
+
+.block1 {
+    padding: 80px;
+    background: url(/img/Restaurant/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.time {
+    padding: 8px 16px;
+    background: #262626;
+    border-radius: 16px;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.block2 {
+    border-bottom: solid 1px #75757520;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.menu span {
+    color: #626262;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.menu span:hover {
+    color: #C0C0C0;
+}
+.food-card {
+    box-sizing: border-box;
+    display: flex;
+    border: solid 1px #75757520;
+    border-radius: 2px;
+    justify-content: space-between;
+    padding: 0px !important;
+    width: 100%;
+    height: fit-content;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.food-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+}
+.food-name h4 {
+    color: #626262;
+    margin: 0px;
+}
+.food-card img {
+    order: 2;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.price {
+    font-weight: 500;
+    line-height: 21px;
+    font-size: 15px;
+    color: #1D1D1D;
+}
+.food-card h2 {
+    margin-top: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.under-h1 {
+    margin-top: 4px;
+    margin-bottom: 43px;
+    width: 50px;
+    color: #757575;
+}
+.food-card:hover {
+    background: #E0E0E050;
+}

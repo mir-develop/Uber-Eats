@@ -1,0 +1,328 @@
+@media (min-width: 320px) {
+    header {
+        padding: 16px 16px;
+    }
+
+    .search-field {
+        padding: 0px 16px;
+    }
+
+    .row {
+        padding: 0px 0px;
+    }
+    .stores {
+        padding: 0px 8px;
+        margin-bottom: 48px;
+    }
+    .btn-to-top {
+        width: 64px;
+        height: 64px;
+        right: 16px;
+    }
+    footer {
+        padding: 56px 16px 16px;
+    }
+    .block1 {
+        padding: 0px 16px;
+        height: 255px;
+    }
+    .block1 .row {
+        height: 320px;
+    }
+    .block2 {
+        padding: 32px 16px;
+        display:none;
+    }
+    .block3 {
+        padding: 56px 8px 40px;
+    }
+    .title {
+        line-height: 28px;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    .add {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 16px;
+    }
+    .block3 .row {
+        gap: 16px 0px;
+    }
+    .food-card {
+        border: none;
+        border-bottom: solid 1px #75757520;
+    }
+    .food-card img {
+        width: 102px;
+        height: 102px;
+    }
+    .food-name {
+        padding: 0px 0px 16px 0px;
+    }
+    .food-name h2 {
+        width: 200px;
+    }
+    .block3 h1 {
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+        margin-bottom: 8px;
+    }
+    .under-h1 {
+        display:block;
+    }
+    .store-name {
+        padding: 24px !important;
+    }
+}
+
+@media (min-width: 575px) {
+    header {
+        padding: 16px calc(50% - 154px);
+    }
+
+    .search-field {
+        padding: 0px calc(50% - 154px);
+    }
+
+    .row {
+        padding: 0px calc(50% - 162px);
+    }
+    .stores {
+        padding: 0px calc(50% - 162px);
+        margin-bottom: 48px;
+    }
+    .btn-to-top {
+        width: 64px;
+        height: 64px;
+        right: 16px;
+    }
+    footer {
+        padding: 56px calc(50% - 154px) 16px;
+    }
+    .block1 {
+        padding: 0px calc(50% - 154px);
+        height: 255px;
+    }
+    .block1 .row {
+        height: 320px;
+    }
+    .block2 {
+        display:none;
+        padding: 32px calc(50% - 154px);
+    }
+    .block3 {
+        padding: 56px calc(50% - 162px) 40px;
+    }
+    .title {
+        line-height: 28px;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    .add {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 16px;
+    }
+    .store-name {
+        bottom: -56px;
+    }
+    .block3 .row {
+        gap: 16px 0px;
+    }
+    .food-card {
+        border: none;
+        border-bottom: solid 1px #75757520;
+    }
+    .food-card img {
+        width: 102px;
+        height: 102px;
+    }
+    .food-name {
+        padding: 0px 0px 16px 0px;
+    }
+    .food-name h2 {
+        width: 200px;
+    }
+    .block3 h1 {
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+        margin-bottom: 8px;
+    }
+    .under-h1 {
+        display:block;
+    }
+    .store-name {
+        padding: 24px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    header {
+        padding: 16px calc(50% - 376px);
+    }
+
+    .search-field {
+        padding: 0px calc(50% - 376px);
+    }
+
+    .row {
+        padding: 0px calc(50% - 384px);
+    }
+    .stores {
+        padding: 0px calc(50% - 384px);
+        margin-bottom: 48px;
+    }
+    .btn-to-top {
+        width: 80px;
+        height: 80px;
+        right: 16px;
+    }
+    footer {
+        padding: 56px calc(50% - 376px) 16px;
+    }
+    .block1 {
+        padding: 80px calc(50% - 376px);
+    }
+    .block1 .row {
+        display: flex;
+        align-items: center;
+        height: 255px;
+    }
+    .block2 {
+        display: block;
+        padding: 32px calc(50% - 376px);
+    }
+    .block3 {
+        padding: 56px calc(50% - 384px) 48px;
+    }
+    .title {
+        line-height: 42px;
+        font-size: 36px;
+        margin-bottom: 54px;
+    }
+    .add {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .block3 .row {
+        gap: 32px 0px;
+    }
+    .food-card {
+        border: solid 1px #75757520;
+    }
+    .food-card img {
+        width: 200px;
+        height: 160px;
+    }
+    .food-name {
+        padding: 16px;
+    }
+    .food-name h2 {
+        width: 100%;
+    }
+    .block3 h1 {
+        width: 100%;
+        text-align: left;
+        padding-left: 8px;
+        margin-bottom: 32px;
+    }
+    .under-h1 {
+        display: none;
+    }
+    .store-name {
+        padding: 38px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        padding: 16px calc(50% - 478px);
+    }
+
+    .search-field {
+        padding: 0px calc(50% - 478px);
+    }
+
+    .row {
+        padding: 0px calc(50% - 486px);
+    }
+    .stores {
+        padding: 0px calc(50% - 486px);
+        margin-bottom: 80px;
+    }
+    .btn-to-top {
+        width: 80px;
+        height: 80px;
+        right: 16px;
+    }
+    footer {
+        padding: 56px calc(50% - 478px) 16px;
+    }
+    .block1 {
+        padding: 80px calc(50% - 478px);
+    }
+    .block1 .row {
+        display: flex;
+        align-items: center;
+        height: 255px;
+    }
+    .block2 {
+        display: block;
+        padding: 32px calc(50% - 478px);
+    }
+    .block3 {
+        padding: 56px calc(50% - 486px) 80px;
+    }
+    .title {
+        line-height: 42px;
+        font-size: 36px;
+        margin-bottom: 54px;
+    }
+    .add {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .block3 .row {
+        gap: 49px 0px;
+    }
+    .food-card {
+        border: solid 1px #75757520;
+    }
+    .food-card img {
+        width: 170px;
+        height: 160px;
+    }
+    .food-name {
+        padding: 16px;
+    }
+    .food-name h2 {
+        width: 100%;
+    }
+    .block3 h1 {
+        width: 100%;
+        text-align: left;
+        padding-left: 8px;
+        margin-bottom: 32px;
+    }
+    .under-h1 {
+        display: none;
+    }
+    .store-name {
+        padding: 38px !important;
+    }
+}
